@@ -1,6 +1,6 @@
 ### Authorship attribution for short messages in Russian (1 tweet = 270 chars)
-Authorship attribution is one of the tasks of forensic linguistics. The method, developed for literature studies, nowadays is used in DLP systems.
-One of the approaches to the closed-set authorship attribution is to decompose the tasl on feature engineering (using doc2vec embeddings, for instance) + multiclass classification (for example, CNN based on Keras). 
+Authorship attribution has a long history, beginning from literature studies and criminal law. Nowadays the method is used in forensic linguistics to identify the authors of certain messages in DLP systems.
+One of the approaches to the closed-set authorship attribution is to decompose the task on *feature engineering* (using doc2vec embeddings, for instance) + *multiclass classification* (for example, CNN based on Keras). 
 
 Features: semantic of words, punctuation, different types of smiles, URLs, hashtag.
 Without spellchecker as typos can contain useful lexical features.
