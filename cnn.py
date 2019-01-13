@@ -4,9 +4,7 @@ from __future__ import print_function
 import keras
 import re
 import numpy as np
-import matplotlib.pyplot as plt 
 from numpy import *
-from matplotlib.mlab import PCA
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
